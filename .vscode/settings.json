@@ -1,0 +1,10 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "${workspaceFolder:chatty-node-nlw5}/src/database/database.sqlite",
+      "name": "teste"
+    }
+  ]
+}
