@@ -8,28 +8,28 @@ export class CreateSettings1618962011494 implements MigrationInterface {
         name: "settings",
         columns: [
           {
-            name: 'id',
-            type: 'uuid',
+            name: "id",
+            type: "uuid",
             isPrimary: true
           },
           {
-            name: 'username',
-            type: 'varchar'
+            name: "username",
+            type: "varchar"
           },
           {
-            name: 'chat',
-            type: 'boolean',
+            name: "chat",
+            type: "boolean",
             default: true
           },
           {
-            name: 'updated_at',
-            type: 'timestamp',
+            name: "updated_at",
+            type: "timestamp",
             default: "now()"
           },
           {
-            name: 'created_at',
-            type: 'timestamp',
-            default: 'now()'
+            name: "created_at",
+            type: "timestamp",
+            default: "now()"
           },
         ]
       })
